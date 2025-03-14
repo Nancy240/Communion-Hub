@@ -16,7 +16,7 @@ const Navbar = () => {
             {/* Logo and Brand Name */}
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-                <img src="/favicon.ico" alt="Logo" className="h-8 w-8" />
+                <img src={favicon} alt="Logo" className="h-8 w-8" />
                 <span className="text-xl font-bold text-gray-900">CommunionHub</span> {/* Brand name */}
               </Link>
             </div>
