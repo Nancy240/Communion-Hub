@@ -13,10 +13,10 @@ const Navbar = () => {
           <div className="flex justify-between h-16">
             
             {/* Logo and Brand Name */}
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-                <img src="/favicon.ico" alt="Logo" className="h-8 w-8 inline-block" />
-                <span className="text-xl font-bold text-gray-900 inline-block">CommunionHub</span> {/* Brand name */}
+                <img src="/favicon.ico" alt="Logo" className="h-8 w-8" />
+                <span className="text-xl font-bold text-gray-900">CommunionHub</span> {/* Brand name */}
               </Link>
             </div>
 
