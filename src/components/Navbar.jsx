@@ -2,7 +2,6 @@ import React, { useState } from 'react'; // Importing React and useState hook fo
 import { Link, useLocation } from 'react-router-dom'; // Importing Link for navigation and useLocation to track current route
 import { Users, Menu, X } from 'lucide-react'; // Importing icons from Lucide React
 import { motion, AnimatePresence } from 'framer-motion'; // Importing motion and AnimatePresence from Framer Motion for animations
-import favicon from '../assets/favicon.ico';
 
 const Navbar = () => {
   const location = useLocation(); // Hook to get the current location (route)
@@ -16,7 +15,7 @@ const Navbar = () => {
             {/* Logo and Brand Name */}
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-              <img src="/favicon.ico" alt="Logo" className="h-8 w-8" />
+                <img src="/favicon.ico" alt="Logo" className="h-8 w-8" />
                 <span className="text-xl font-bold text-gray-900">CommunionHub</span> {/* Brand name */}
               </Link>
             </div>
